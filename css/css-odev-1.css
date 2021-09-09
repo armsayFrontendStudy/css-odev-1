@@ -1,0 +1,42 @@
+body {
+    background-color: #082032;
+}
+
+nav{
+    border: 2px solid #334756;
+    border-radius: 15px;
+}
+#nav-baslik{
+    color: #ff4d29b9;
+}
+h2{
+    margin-top: 15px;
+    margin-bottom: 25px;
+    color: #FF4C29;
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+}
+.nav-menu{
+    padding: 0;
+    text-align: center;
+}
+.nav-menu li{
+    /*list-style: none;*/
+    display: inline;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.nav-menu li a{
+    color: #ff7053;
+    text-decoration: none !important;
+    margin: 20px;
+}
+.nav-menu li a:hover{
+    color: #334756;
+    text-decoration: none !important;
+}
+
+
+
