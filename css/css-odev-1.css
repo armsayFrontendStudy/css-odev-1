@@ -9,6 +9,7 @@ nav{
 #nav-baslik{
     color: #ff4d29b9;
 }
+
 h2{
     margin-top: 15px;
     margin-bottom: 25px;
@@ -20,23 +21,49 @@ h2{
 .nav-menu{
     padding: 0;
     text-align: center;
+
 }
 .nav-menu li{
-    /*list-style: none;*/
     display: inline;
     font-size: 14px;
     font-weight: bold;
+    font-size: 16px;
 }
 
 .nav-menu li a{
     color: #ff7053;
     text-decoration: none !important;
     margin: 20px;
+    
 }
 .nav-menu li a:hover{
     color: #334756;
     text-decoration: none !important;
 }
 
+.img-prod{
+    width: 25%;
+}
+.article-shop{
+    margin-top: 50px;
+    text-align: center;
+}
 
+.article-shop ul li{
+    font-size: 15px;
+    color: #FF4C29;
+    margin-top: 50px;
+}
 
+.div-about-us{
+    background-color: rgba(255, 255, 255, 0.2); 
+    margin: 5px;
+    border-radius: 15px;
+    padding: 30px;    
+}
+.div-about-us p{
+    color: #d37968b9;
+}
+.div-about-us h3{
+    color: #FF4C29;
+}
